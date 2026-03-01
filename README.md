@@ -39,7 +39,7 @@ AI_Healthcare_System/
 └── venv/                 # Virtual environment
 ⚡ Getting Started
 1️⃣ Clone the repository
-git clone https://github.com/yourusername/AI_Healthcare_System.git
+git clone https://github.com/BOT9315/AI_Healthcare_System.git
 cd AI_Healthcare_System
 2️⃣ Create virtual environment
 python -m venv venv
