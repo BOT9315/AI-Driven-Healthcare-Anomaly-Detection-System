@@ -22,19 +22,14 @@ Visualization	Flask Jinja2 Templates, Charts
 Project Structure
 
 AI_Healthcare_System/
-│
-├── app.py                # Main Flask application
-├── database.py           # Database models and session management
-├── anomaly_detection.py  # ML models for anomaly detection
-├── requirements.txt      # Python dependencies
-│
-├── templates/            # HTML templates
-│     └── dashboard.html
-│
-├── static/               # CSS and JS files
-│     └── style.css
-│
-└── venv/                 # Virtual environment
+├── app.py # Main Flask app
+├── database.py # Database models and connection
+├── anomaly_detection.py # ML anomaly detection code
+├── requirements.txt # Dependencies
+├── templates/
+│ └── dashboard.html
+├── static/
+│ └── style.css
 
 
 
