@@ -4,15 +4,11 @@ AI-Driven Healthcare Anomaly Detection System is an end-to-end real-time patient
 
 🧩 Features
 
-Real-Time Monitoring: Tracks patient vitals like heart rate, blood pressure, SpO₂, and temperature.
-
-Anomaly Detection: Uses ML models like Autoencoder Neural Network and Isolation Forest to classify patient conditions as LOW, MEDIUM, or HIGH.
-
-Interactive Dashboard: Visualizes live and historical data using Flask and HTML templates.
-
-Email Alerts: Sends automatic notifications to healthcare administrators on critical anomalies.
-
-Database Storage: Stores patient records and anomaly events in PostgreSQL.
+>Real-Time Monitoring: Tracks patient vitals like heart rate, blood pressure, SpO₂, and temperature.
+>Anomaly Detection: Uses ML models like Autoencoder Neural Network and Isolation Forest to classify patient conditions as LOW, MEDIUM, or HIGH.
+>Interactive Dashboard: Visualizes live and historical data using Flask and HTML templates.
+>Email Alerts: Sends automatic notifications to healthcare administrators on critical anomalies.
+>Database Storage: Stores patient records and anomaly events in PostgreSQL.
 
 🛠 Technology Stack
 Layer	Technology / Library
@@ -22,7 +18,9 @@ Database	PostgreSQL
 Streaming	Apache Kafka (optional for live streaming)
 Frontend	HTML, CSS, Bootstrap
 Visualization	Flask Jinja2 Templates, Charts
-🗂 Project Structure
+
+Project Structure
+
 AI_Healthcare_System/
 │
 ├── app.py                # Main Flask application
@@ -37,59 +35,65 @@ AI_Healthcare_System/
 │     └── style.css
 │
 └── venv/                 # Virtual environment
-⚡ Getting Started
+
+
+
+⚡Getting Started
 1️⃣ Clone the repository
+
 git clone https://github.com/BOT9315/AI_Healthcare_System.git
 cd AI_Healthcare_System
-2️⃣ Create virtual environment
+
+
+2️⃣Create virtual environment
 python -m venv venv
 venv\Scripts\activate       # Windows
 source venv/bin/activate    # Linux / Mac
-3️⃣ Install dependencies
+
+3️⃣Install dependencies
 pip install -r requirements.txt
-4️⃣ Configure PostgreSQL
 
-Create a database (example: healthcare_db)
-
-Update database.py connection string:
-
+4️⃣Configure PostgreSQL
+1.Create a database (example: healthcare_db)
+2.Update database.py connection string:
 DATABASE_URL = "postgresql://username:password@localhost:5432/healthcare_db"
-5️⃣ Run Flask server
+
+5️⃣Run Flask server
 python app.py
-6️⃣ Open in Browser
 
+
+6️⃣Open in Browser
 Visit:
-
 http://127.0.0.1:5000
-🧠 How It Works
 
-Data Ingestion: Patient vitals are streamed via Kafka or simulated CSV data.
 
-Anomaly Detection: ML models calculate anomaly scores for each vital sign.
+🧠How It Works
 
-Storage & Alerts: Records are stored in PostgreSQL, and critical anomalies trigger email alerts.
+1.Data Ingestion: Patient vitals are streamed via Kafka or simulated CSV data.
+2.Anomaly Detection: ML models calculate anomaly scores for each vital sign.
+3.Storage & Alerts: Records are stored in PostgreSQL, and critical anomalies trigger email alerts.
+4.Visualization: Flask renders dashboard templates showing all patient records and severity levels.
 
-Visualization: Flask renders dashboard templates showing all patient records and severity levels.
-
-📦 Dependencies
-
+📦Dependencies
 Flask
-
 SQLAlchemy
-
 psycopg2
-
 TensorFlow / Keras
-
 Scikit-learn
-
 pandas
-
 numpy
 
 Install all using:
-
 pip install -r requirements.txt
-🛡 License
 
-This project is licensed under MIT License – see LICENSE file for details.
+🚀Future Improvements
+1.Add real-time Kafka streaming for live vitals
+2.Integrate advanced deep learning models for better anomaly prediction
+3.Deploy online using Heroku, AWS, or Azure
+4.Add authentication and multi-user support for healthcare admins
+
+
+
+THANKS FOR VISITING MY REPOSITORY......
+
+
