@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AI Healthcare Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <h1>AI Healthcare Monitoring System</h1>
+
+    <table>
+        <tr>
+            <th>Heart Rate</th>
+            <th>SpO2</th>
+            <th>Temperature</th>
+            <th>Blood Pressure</th>
+            <th>Severity</th>
+        </tr>
+
+        {% for r in records %}
+        <tr class="{{ r.severity }}">
+            <td>{{ r.heart_rate }}</td>
+            <td>{{ r.spo2 }}</td>
+            <td>{{ r.temperature }}</td>
+            <td>{{ r.blood_pressure }}</td>
+            <td>{{ r.severity }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+
+</html>
