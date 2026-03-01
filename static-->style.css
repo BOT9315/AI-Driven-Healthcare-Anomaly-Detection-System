@@ -1,1 +1,28 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
 
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.LOW {
+    background-color: #b2f2bb;
+}
+
+.MEDIUM {
+    background-color: #fff3bf;
+}
+
+.HIGH {
+    background-color: #ffa8a8;
+}
