@@ -23,7 +23,9 @@ Project Structure
 
 AI_Healthcare_System/
 ├── app.py # Main Flask app
+
 ├── database.py # Database models and connection
+
 ├── anomaly_detection.py # ML anomaly detection code
 ├── requirements.txt # Dependencies
 ├── templates/
