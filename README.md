@@ -27,9 +27,12 @@ AI_Healthcare_System/
 ├── database.py # Database models and connection
 
 ├── anomaly_detection.py # ML anomaly detection code
+
 ├── requirements.txt # Dependencies
+
 ├── templates/
 │ └── dashboard.html
+
 ├── static/
 │ └── style.css
 
