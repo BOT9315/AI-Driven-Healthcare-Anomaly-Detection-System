@@ -24,8 +24,8 @@ def dashboard():
     session.commit()
 
     records = session.query(PatientData).order_by(PatientData.id.desc()).limit(10).all()
-
     return render_template("dashboard.html", records=records)
 
 if __name__ == "__main__":
+
     app.run(debug=True)
