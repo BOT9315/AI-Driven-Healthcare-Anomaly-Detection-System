@@ -4,7 +4,7 @@ AI-Driven Healthcare Anomaly Detection System is an end-to-end real-time patient
 
 🧩 Features
 
-1.Real-Time Monitoring: Tracks patient vitals like heart rate, blood pressure, SpO₂, and temperature./n\n
+1.Real-Time Monitoring: Tracks patient vitals like heart rate, blood pressure, SpO₂, and temperature.
 2.Anomaly Detection: Uses ML models like Autoencoder Neural Network and Isolation Forest to classify patient conditions as LOW, MEDIUM, or HIGH.
 3.Interactive Dashboard: Visualizes live and historical data using Flask and HTML templates.
 4.Email Alerts: Sends automatic notifications to healthcare administrators on critical anomalies.
