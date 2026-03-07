@@ -96,4 +96,9 @@ pip install -r requirements.txt
 
 THANKS FOR VISITING MY REPOSITORY......
 
+👨‍💻 Author
+Ankush Kumar
+AI / Machine Learning Developer
+===========================================================================================
+
 
