@@ -5,6 +5,7 @@ from sklearn.ensemble import IsolationForest
 model = IsolationForest(contamination=0.1)
 
 # Train with normal health data
+#add yout data or chnge according to your data 
 normal_data = np.array([
     [72, 98, 36.8, 120],
     [75, 97, 37.0, 118],
