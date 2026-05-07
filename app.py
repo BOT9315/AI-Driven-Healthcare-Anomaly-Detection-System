@@ -19,7 +19,6 @@ def dashboard():
         blood_pressure=data[3],
         severity=severity
     )
-
     session.add(patient)
     session.commit()
 
